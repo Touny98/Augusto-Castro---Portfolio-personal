@@ -23,6 +23,10 @@
     justify-content: center;
 }
 .caja{
-    height: 750px;
-    width: 750px;
+    height: 40rem;
+    width: 40rem;
+}
+.encabezado{  
+    height: 100%;
+    margin-right: 0px;
 }
