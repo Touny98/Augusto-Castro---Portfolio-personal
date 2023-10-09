@@ -1,0 +1,28 @@
+.margen{    
+    padding: 0px;
+}
+.img{
+    height: 
+    380px;
+}
+.titulos{   
+    font-size: 50px;
+}
+.parrafo{
+    font-size: 20px;
+}
+.proyectos{
+    background-image: radial-gradient(circle at 50% 7.28%, #d2ff97 0, #b9ff9f 10%, #9dffa7 20%, #80ffad 30%, #61ffb2 40%, #3cf2b5 50%, #00e4b6 60%, #00d7b8 70%, #00ccba 80%, #00c3bc 90%, #00bbbf 100%);
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    height: 750px;
+    width: 750px;
+}
