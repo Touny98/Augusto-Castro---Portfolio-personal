@@ -17,6 +17,7 @@
 .logo{
     height: 40px;
     width: 40px;
+    margin-bottom: 15px;
 }
 .centrar{
     display: flex;
@@ -29,4 +30,19 @@
 .encabezado{  
     height: 100%;
     margin-right: 0px;
+}
+.margentop{
+    margin-top: 2.5em;
+}
+.flexin{
+    display: flex;
+    justify-content: space-between;
+}
+.proyectos2{
+    background-image: linear-gradient(195deg, #959686 0, #6f6f79 25%, #434b6b 50%, #002b5d 75%, #000f50 100%);
+    color: white;
+}
+.letrasecoran{
+    font-size: 30px;
+    font-weight: bold; 
 }
