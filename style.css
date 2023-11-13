@@ -46,3 +46,9 @@
     font-size: 30px;
     font-weight: bold; 
 }
+.fondodatospers{
+    background-image: linear-gradient(215deg, #bcc352 0, #aac250 12.5%, #93bc4b 25%, #75b142 37.5%, #4da235 50%, #09932b 62.5%, #00872a 75%, #00802f 87.5%, #007c3a 100%);
+}
+.letrablanca{
+    color: white;
+}
