@@ -19,10 +19,6 @@
     width: 40px;
     margin-bottom: 15px;
 }
-.centrar{
-    display: flex;
-    justify-content: center;
-}
 .caja{
     height: 40rem;
     width: 40rem;
@@ -30,9 +26,6 @@
 .encabezado{  
     height: 100%;
     margin-right: 0px;
-}
-.margentop{
-    margin-top: 2.5em;
 }
 .flexin{
     display: flex;
