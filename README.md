@@ -33,4 +33,4 @@ Este es mi portafolio personal, diseñado con HTML, CSS y Bootstrap. Aquí prese
 ¡Contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias de mejora, por favor crea un issue o envía un pull request.
 
 ## Licencia
-Este proyecto está bajo la Licencia ## MIT.
+Este proyecto está bajo la Licencia MIT.
