@@ -40,8 +40,7 @@
     font-weight: bold; 
 }
 .fondodatospers{
-    background-image: linear-gradient(215deg, #bcc352 0, #aac250 12.5%, #93bc4b 25%, #75b142 37.5%, #4da235 50%, #09932b 62.5%, #00872a 75%, #00802f 87.5%, #007c3a 100%);
-}
+    background-image: radial-gradient(circle at 107.92% 9.44%, #c1ff65 0, #a3fc64 16.67%, #7ef361 33.33%, #48e55c 50%, #00d759 66.67%, #00cc5d 83.33%, #00c565 100%);}
 .letrablanca{
     color: white;
 }
