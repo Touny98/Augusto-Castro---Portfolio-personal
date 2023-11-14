@@ -13,7 +13,8 @@ Este es mi portafolio personal, diseñado con HTML, CSS y Bootstrap. Aquí prese
 
 ## Vista previa
 
-img=".imagenes\Captura-de-pantalla.png"
+![Texto alternativo](Portfolio personal\imagenes\Captura-de-pantalla.png)
+
 
 
 ## Tecnologías utilizadas
