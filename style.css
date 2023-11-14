@@ -1,9 +1,9 @@
-.margen{    
-    padding: 0px;
+.margencert{
+    padding-left: 20em;
 }
 .img{
     height: 
-    380px;
+    250px;
 }
 .titulos{   
     font-size: 50px;
@@ -20,8 +20,7 @@
     margin-bottom: 15px;
 }
 .caja{
-    height: 40rem;
-    width: 40rem;
+    height: 36em;
 }
 .encabezado{  
     height: 100%;
@@ -40,7 +39,7 @@
     font-weight: bold; 
 }
 .fondodatospers{
-    background-image: radial-gradient(circle at 107.92% 9.44%, #c1ff65 0, #a3fc64 16.67%, #7ef361 33.33%, #48e55c 50%, #00d759 66.67%, #00cc5d 83.33%, #00c565 100%);}
+    background-image: radial-gradient(circle at 59.27% 38.95%, #71b765 0, #5dad66 25%, #49a166 50%, #359565 75%, #208a65 100%);}
 .letrablanca{
     color: white;
 }
