@@ -42,6 +42,7 @@
     background-image: radial-gradient(circle at 59.27% 38.95%, #71b765 0, #5dad66 25%, #49a166 50%, #359565 75%, #208a65 100%);}
 .letrablanca{
     color: white;
+    
 }
 
 .logoli{
@@ -50,7 +51,125 @@
     
 }
 .cararobot{
-    height: 45px;
-    width: 55px;
+    height: 50px;
+    width: 65px;
+    
 
 }
+
+.animacioncolor:hover{
+    animation: animacion1 0.3s ease reverse ,mover1 1s ease-in-out;
+    position: relative;
+
+}
+
+@keyframes animacion1 {
+
+    0% , 10%{
+        
+        background-image: radial-gradient(circle at 50% -20.71%, #e6f87e 0, #d3f880 12.5%, #b9f27d 25%, #98e876 37.5%, #6cd86c 50%, #2ec865 62.5%, #00bd65 75%, #00b66c 87.5%, #00b379 100%);
+    }
+    20% , 30% , 40%{
+        background-image: radial-gradient(circle at 50.82% 40.61%, #e6f87e 0, #d3f880 12.5%, #b9f27d 25%, #98e876 37.5%, #6cd86c 50%, #2ec865 62.5%, #00bd65 75%, #00b66c 87.5%, #00b379 100%);
+        
+    }
+
+    50% , 60% ,80%{
+        
+        background-image: radial-gradient(circle at 50% 81.5%, #e6f87e 0, #d3f880 12.5%, #b9f27d 25%, #98e876 37.5%, #6cd86c 50%, #2ec865 62.5%, #00bd65 75%, #00b66c 87.5%, #00b379 100%);
+    }
+    100% , 90% {
+        
+    background-image: radial-gradient(circle at 50% 120.71%, #e6f87e 0, #d3f880 12.5%, #b9f27d 25%, #98e876 37.5%, #6cd86c 50%, #2ec865 62.5%, #00bd65 75%, #00b66c 87.5%, #00b379 100%);
+    }
+
+    
+}
+.fotoanimada:hover{
+   animation: foto 1s forwards;
+    
+}
+
+@keyframes foto {
+    50%{
+        opacity: 30%;
+    }
+    100%{
+        height: 30rem;
+        width: 24rem;
+        margin: 0px;
+        padding-top: 0px;
+        }
+}
+
+
+.animacionmov{
+    animation: mover 1s;
+}
+
+@keyframes mover {
+    50%{ 
+        transform: translateY(-17%)
+        }
+    
+}
+
+@keyframes mover1 {
+    
+        
+        50%{ 
+            transform: translateY(-8%)
+            } 
+    
+
+}
+
+:root{
+    --clyppy: polygon(0 1%, 0 0, 0 100%, 0 100%);
+
+}
+
+@keyframes letras {
+    0%,50%,80%{
+        
+        display: block;
+        background: #868585;
+        height: 100%;
+        top: 0;
+        left: 0;  
+        clip-path: var(--clyppy);
+        z-index: -1;
+        }
+
+    100%{
+        clip-path: polygon(0 1%, 78% 0, 100% 100%, 0 100%);
+    }
+    
+}
+
+
+.movletras{
+    position: relative;
+animation: letras 1.3s ease;
+}
+
+@keyframes letras1 {
+    0%,50%,80%{
+        background: #868585;
+        display: block;
+        height: 100%;
+        top: 0;
+        left: 0;  
+        clip-path: var(--clyppy);
+        z-index: -1;
+        }
+
+    100%{
+        clip-path: polygon(0 1%, 78% 0, 100% 100%, 0 100%);
+    }
+     }
+
+     .letrablancamov:hover{
+        animation: letras1 3s ease;
+        animation-delay: 1.2s;
+     }
