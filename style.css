@@ -155,7 +155,7 @@ animation: letras 1s ease;
 
 
 @keyframes letras1 {
-    0%,50%,80%{
+    0%,30%,40%,50%,60%,70%,80%,90%{
         background: hwb(164 14% 31%);
         height: 100%;
         top: 0;
@@ -170,7 +170,7 @@ animation: letras 1s ease;
      }
 
      .movletras1:hover{
-        animation: letras1 1.1s ease ;
+        animation: letras1 1s ease ;
         
      }
      
