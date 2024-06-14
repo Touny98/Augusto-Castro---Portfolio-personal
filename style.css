@@ -86,15 +86,16 @@
     
 }
 .fotoanimada:hover{
-   animation: foto 1s forwards;
+   animation: foto 1s forwards ;
     
 }
 
 @keyframes foto {
-    50%{
+    20%{
         opacity: 30%;
     }
-    100%{
+
+    100%,50%{
         height: 30rem;
         width: 24rem;
         margin: 0px;
